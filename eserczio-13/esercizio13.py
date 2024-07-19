@@ -34,8 +34,6 @@ data = {
 }
 df = pd.DataFrame(data)
 
-#Analisi delle Vendite:
-
 #Calcola le vendite medie per ora lavorativa
 df['Vendite per Ora'] = df['Vendite'] / df['Ore Lavorative']
 
