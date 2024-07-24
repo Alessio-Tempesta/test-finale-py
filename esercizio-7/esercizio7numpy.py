@@ -25,7 +25,7 @@ print("\nTemperatura media:")
 print(media_temp)
 
 # Trova la temperatura massima e minima
-max_temp = np.max(temperature)      #temperatura massima
+max_temp = np.max(temperature)       #temperatura massima
 min_temp = np.min(temperature)         #temperatura minima
 print("\nTemperatura massima:")
 print(max_temp)
